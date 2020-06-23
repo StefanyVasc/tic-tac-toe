@@ -1,6 +1,6 @@
 .action {
-  font: bold 14px "MuseoModerno", sans-serif;
+  font-size: var(--size-small);
+  font-weight: bold;
   text-transform: uppercase;
-  color: #707070;
-  text-decoration: none;
+  color: var(--color-first);
 }
