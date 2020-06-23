@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./generic/reset.css";
 
 function App() {
   return (
