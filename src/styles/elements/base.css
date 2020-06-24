@@ -1,0 +1,9 @@
+html,
+body {
+  font-family: "MuseoModerno", sans-serif;
+  background-color: var(--color-second);
+}
+
+a {
+  text-decoration: none;
+}
