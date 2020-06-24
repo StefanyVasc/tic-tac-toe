@@ -1,0 +1,29 @@
+span {
+  background-color: var(--color-fourth);
+  margin: 4px 0;
+  width: 25px;
+  height: 4px;
+  display: block;
+  border-radius: 25%;
+  position: relative;
+}
+
+span:before {
+  content: "";
+  position: absolute;
+  border-radius: 25%;
+  top: 6px;
+  width: 25px;
+  height: 4px;
+  background-color: var(--color-fourth);
+}
+
+span:after {
+  content: "";
+  position: absolute;
+  border-radius: 25%;
+  top: -6px;
+  width: 25px;
+  height: 4px;
+  background-color: var(--color-fourth);
+}
