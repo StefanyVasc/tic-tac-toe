@@ -1,16 +1,8 @@
 import React from "react";
-import About from "./objects/About/index.js";
-import Logo from "./objects/Logo/index.js";
-import Menu from "./objects/Menu/index.js";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div>
-      <Logo />
-      <About />
-      <Menu />
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;

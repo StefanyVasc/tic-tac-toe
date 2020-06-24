@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Menu = () => {
   return (
-    <div>
+    <div className="menu">
       <span></span>
     </div>
   );
