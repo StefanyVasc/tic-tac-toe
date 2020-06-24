@@ -1,12 +1,8 @@
 import React from "react";
-import "./App.css";
+import About from "./objects/About/index.js";
 
 function App() {
-  return (
-    <a href="#to-do" className="action">
-      sobre
-    </a>
-  );
+  return <About />;
 }
 
 export default App;
