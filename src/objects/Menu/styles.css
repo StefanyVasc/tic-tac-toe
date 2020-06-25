@@ -1,29 +1,20 @@
-span {
-  background-color: var(--color-fourth);
-  margin: 6px 0;
-  width: 25px;
-  height: 4px;
+.menu {
   display: block;
-  border-radius: 25%;
-  position: relative;
+  text-indent: -9999px;
 }
 
-span:before {
+.menu::after,
+.menu::before,
+.menu > .center {
   content: "";
-  position: absolute;
-  border-radius: 25%;
-  top: 7px;
-  width: 25px;
-  height: 4px;
+  display: block;
   background-color: var(--color-fourth);
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
 }
 
-span:after {
-  content: "";
-  position: absolute;
-  border-radius: 25%;
-  top: -7px;
-  width: 25px;
-  height: 4px;
-  background-color: var(--color-fourth);
+.menu::before,
+.menu > .center {
+  margin-bottom: 5px;
 }

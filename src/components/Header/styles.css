@@ -1,15 +1,16 @@
 .header-container {
-  padding: 20px 34px;
-  width: 100%;
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
 }
 
-.menu-container {
-  display: flex;
+.header-container > .about {
+  margin-left: auto;
+  margin-right: 10px;
 }
 
-.about {
-  margin-right: 5px;
+.header-container > .menu {
+  width: 25px;
+  height: 18px;
 }
