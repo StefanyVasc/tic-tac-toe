@@ -1,0 +1,9 @@
+.piece {
+  border: none;
+  background-color: var(--color-lighter);
+}
+
+.piece > img {
+  width: 42px;
+  height: 42px;
+}
