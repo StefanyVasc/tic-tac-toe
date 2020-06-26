@@ -1,11 +1,11 @@
 import React from "react";
-import Piece from "../Piece";
+import Marking from "../Marking/index.js";
 import "./styles.css";
 
 const Board = () => {
   return (
     <div className="board">
-      <Piece />
+      <Marking />
     </div>
   );
 };
