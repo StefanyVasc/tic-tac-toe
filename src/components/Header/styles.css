@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-container > .about {
@@ -12,5 +13,4 @@
 
 .header-container > .menu {
   width: 25px;
-  height: 18px;
 }

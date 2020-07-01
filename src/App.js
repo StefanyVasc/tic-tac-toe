@@ -1,14 +1,15 @@
 import React from "react";
+import "./App.css";
+import Hash from "./components/Hash";
 import Header from "./components/Header";
-import Board from "./objects/Board";
 
-function App() {
+const App = () => {
   return (
-    <>
+    <main className="app">
       <Header />
-      <Board />
-    </>
+      <Hash />
+    </main>
   );
-}
+};
 
 export default App;

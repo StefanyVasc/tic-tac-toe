@@ -1,5 +1,6 @@
 :root {
   --color-darkest: #3a4042;
+  --color-darkest-light: rgba(58, 64, 65, 0.1);
   --color-lighter: #fff;
 
   --color-first: #f25a70;

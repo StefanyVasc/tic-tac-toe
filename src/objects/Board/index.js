@@ -1,13 +1,8 @@
 import React from "react";
-import Marking from "../Marking/index.js";
 import "./styles.css";
 
-const Board = () => {
-  return (
-    <div className="board">
-      <Marking />
-    </div>
-  );
+const Board = ({ children }) => {
+  return <article className="board">{children}</article>;
 };
 
 export default Board;
