@@ -1,15 +1,15 @@
 import React from "react";
 import "./styles.css";
 
-const Show = () => {
+const Checkbox = () => {
   return (
     <div>
       <label>
         <input type="checkbox" name="Mostrar eventos" id="mostrar" />
-        <span className="title">Mostrar Eventos</span>
+        <span className="title">Mostrar eventos</span>
       </label>
     </div>
   );
 };
 
-export default Show;
+export default Checkbox;

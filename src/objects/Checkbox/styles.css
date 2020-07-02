@@ -1,0 +1,27 @@
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: var(--size-smallest);
+  font-weight: bold;
+  color: var(--color-fourth);
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  background: none;
+  box-shadow: 0px 0px 0px 2px var(--color-fourth);
+}
+
+input[type="checkbox"]:checked {
+  background: var(--color-fourth);
+  color: var(--color-lighter);
+  outline: none;
+}
+
+#mostrar + .title {
+  padding-left: 6px;
+}
