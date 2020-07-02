@@ -1,0 +1,5 @@
+.title {
+  font-size: var(--size-smallest);
+  font-weight: bold;
+  color: var(--color-fourth);
+}
