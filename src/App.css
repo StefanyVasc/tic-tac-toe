@@ -1,5 +1,6 @@
 .app {
   text-align: center;
+  display: inherit;
 }
 
 .app > .header-container {
@@ -18,4 +19,8 @@
 .app > .layer {
   position: absolute;
   top: 0;
+}
+
+.app > .layer.-hide {
+  display: none;
 }
