@@ -4,10 +4,10 @@ import Logo from "../../objects/Logo";
 import Menu from "../../objects/Menu";
 import "./styles.css";
 
-const Header = () => {
+const Header = ({ logo }) => {
   return (
     <header className="header-container">
-      <Logo />
+      <Logo logo={logo} />
       <About />
       <Menu />
     </header>
