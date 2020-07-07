@@ -1,0 +1,32 @@
+.profile-user {
+  color: var(--color-lighter);
+}
+
+.profile-user > .avatar {
+  margin-bottom: var(--spacing-medium);
+}
+
+.profile-user .avatar-profile {
+  width: 130px;
+  height: 130px;
+}
+
+.profile-user > .title {
+  font-size: var(--size-big);
+  font-weight: bold;
+  margin-bottom: var(--spacing-medium);
+}
+
+.profile-user > .description {
+  width: 80%;
+  margin: 0 auto var(--spacing-biggest);
+  font-size: var(--size-smallest);
+  line-height: var(--size-big);
+}
+
+.profile-user > .socials {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+}

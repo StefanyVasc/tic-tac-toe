@@ -4,3 +4,7 @@
   text-transform: uppercase;
   color: var(--color-fourth);
 }
+
+.about.-light {
+  color: var(--color-lighter);
+}

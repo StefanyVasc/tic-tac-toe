@@ -1,12 +1,10 @@
 import React from "react";
 import "./styles.css";
 
-const About = () => {
-  return (
-    <a href="#to-do" className="about">
-      About
-    </a>
-  );
-};
+const About = ({ className = "", onClick }) => (
+  <a href="#to-do" className={`about ${className}`} onClick={onClick}>
+    About
+  </a>
+);
 
 export default About;
