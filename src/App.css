@@ -1,5 +1,6 @@
 .app {
   text-align: center;
+  display: inherit;
 }
 
 .app > .header-container {
@@ -13,4 +14,13 @@
   width: 90vw;
   height: 90vw;
   margin-bottom: 40px;
+}
+
+.app > .layer {
+  position: absolute;
+  top: 0;
+}
+
+.app > .layer.-hide {
+  display: none;
 }
