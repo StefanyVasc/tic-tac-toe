@@ -6,8 +6,8 @@ import Title from "../../objects/Title";
 import HeaderGame from "../HeaderGame";
 import "./styles.css";
 
-const Layer = () => (
-  <div className="layer">
+const LayerAbout = () => (
+  <div className="layer-about">
     <HeaderGame logo="light" />
     <Avatar />
     <Title content="Stefany Sá" />
@@ -16,4 +16,4 @@ const Layer = () => (
   </div>
 );
 
-export default Layer;
+export default LayerAbout;

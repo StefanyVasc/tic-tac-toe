@@ -16,11 +16,11 @@
   margin-bottom: 40px;
 }
 
-.app > .layer {
+.app > .layer-about {
   position: absolute;
   top: 0;
 }
 
-.app > .layer.-hide {
+.app > .layer-about.-hide {
   display: none;
 }
