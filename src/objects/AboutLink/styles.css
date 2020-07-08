@@ -1,10 +1,10 @@
-.about {
+.about-link {
   font-size: var(--size-small);
   font-weight: bold;
   text-transform: uppercase;
   color: var(--color-fourth);
 }
 
-.about.-light {
+.about-link.-light {
   color: var(--color-lighter);
 }
