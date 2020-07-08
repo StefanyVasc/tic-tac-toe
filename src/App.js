@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Hash from "./components/Hash";
+import HashBoard from "./components/HashBoard";
 import Header from "./components/Header";
 import LayerHeader from "./components/LayerHeader";
 import ProfileUser from "./components/ProfileUser";
@@ -17,7 +17,7 @@ const App = () => {
   return (
     <main className="app">
       <Header onClick={handleClickEnable} />
-      <Hash />
+      <HashBoard />
       <Checkbox id="show" value="show" content="Mostrar eventos" />
 
       <AboutLayer className={enableAbout}>

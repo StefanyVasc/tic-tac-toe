@@ -3,10 +3,10 @@ import Board from "../../objects/Board";
 import Piece from "../../objects/Piece";
 import "./styles.css";
 
-const Hash = () => {
+const HashBoard = () => {
   return (
     <Board>
-      <ul className="hash">
+      <ul className="hash-board">
         <li className="item">
           <Piece piece="x" />
         </li>
@@ -41,4 +41,4 @@ const Hash = () => {
   );
 };
 
-export default Hash;
+export default HashBoard;
