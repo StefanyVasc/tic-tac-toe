@@ -10,7 +10,7 @@
   content: "";
   width: 32px;
   height: 4px;
-  background-color: var(--color-lighter);
+  background-color: var(--color-zero);
   border-radius: 2px;
   position: absolute;
   top: -1px;
@@ -18,7 +18,7 @@
 
 .icon-close::before {
   left: 2px;
-  transform-origin: left top;
+  transform-origin: top left;
   transform: rotate(45deg);
 }
 

@@ -1,9 +1,9 @@
 :root {
-  --color-darkest: #3a4042;
-  --color-darkest-light: rgba(58, 64, 65, 0.1);
-  --color-lighter: #fff;
-
+  --color-negative: #3a4042;
+  --color-light-negative: rgba(58, 64, 66, 0.1);
+  --color-zero: #fff;
   --color-first: #f25a70;
+
   --color-second: #eeeeee;
   --color-third: #9b9b9b;
   --color-fourth: #707070;
@@ -11,5 +11,5 @@
 
   --color-sixth: #fffcee;
   --color-seventh: #f4f1e4;
-  --color-eigth: #eae6da;
+  --color-eight: #eae6da;
 }

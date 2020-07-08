@@ -1,5 +1,5 @@
 .profile-user {
-  color: var(--color-lighter);
+  color: var(--color-zero);
 }
 
 .profile-user > .avatar {
@@ -14,19 +14,18 @@
 .profile-user > .title {
   font-size: var(--size-big);
   font-weight: bold;
-  margin-bottom: var(--spacing-medium);
+  margin-bottom: var(--spacing-small);
 }
 
 .profile-user > .description {
   width: 80%;
-  margin: 0 auto var(--spacing-biggest);
-  font-size: var(--size-smallest);
-  line-height: var(--size-big);
+  margin: 0 auto var(--spacing-very-big);
+  line-height: 1.6;
 }
 
 .profile-user > .socials {
   display: flex;
-  margin: 0 auto;
-  width: 70%;
   justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
 }

@@ -1,7 +1,4 @@
 :root {
-  --size-base: 10px;
-  --size-smallest: 0.8rem;
-  --size-small: 1rem;
-  --size-medium: 1.2rem;
-  --size-big: 1.4rem;
+  --size-small: 14px;
+  --size-big: 22px;
 }

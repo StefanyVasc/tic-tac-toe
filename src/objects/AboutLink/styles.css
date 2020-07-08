@@ -1,10 +1,11 @@
 .about-link {
-  font-size: var(--size-small);
   font-weight: bold;
+  font-size: 14px;
+  color: #707070;
+  text-decoration: none;
   text-transform: uppercase;
-  color: var(--color-fourth);
 }
 
 .about-link.-light {
-  color: var(--color-lighter);
+  color: var(--color-zero);
 }

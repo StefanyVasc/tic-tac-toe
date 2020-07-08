@@ -1,6 +1,5 @@
 .app {
   text-align: center;
-  display: inherit;
 }
 
 .app > .header-game {
@@ -8,19 +7,10 @@
   margin: 0 auto 85px;
 }
 
-.app > .board {
+.app > .card-game {
   display: inline-block;
   box-sizing: border-box;
   width: 90vw;
   height: 90vw;
   margin-bottom: 40px;
-}
-
-.app > .layer-about {
-  position: absolute;
-  top: 0;
-}
-
-.app > .layer-about.-hide {
-  display: none;
 }

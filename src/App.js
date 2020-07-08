@@ -1,29 +1,34 @@
 import React, { useState } from "react";
 import "./App.css";
-import HashBoard from "./components/HashBoard";
+import HashtagGame from "./components/HashtagGame";
 import HeaderGame from "./components/HeaderGame";
-import LayerHeader from "./components/LayerHeader";
+import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
-import AboutLayer from "./objects/AboutLayer";
-import Checkbox from "./objects/Checkbox";
+import InputCheckbox from "./objects/InputCheckbox";
+import LayerDark from "./objects/LayerDark";
 
 const App = () => {
-  const [enableAbout, setEnableAbout] = useState("");
+  const [activeAbout, setActiveAbout] = useState("");
 
-  const handleClickEnable = () => setEnableAbout("-enable");
-
-  const handleClickDisable = () => setEnableAbout("");
+  const handleClickAdd = () => setActiveAbout("-active");
+  const handleClickRemove = () => setActiveAbout("");
 
   return (
     <main className="app">
-      <HeaderGame onClick={handleClickEnable} />
-      <HashBoard />
-      <Checkbox id="show" value="show" content="Mostrar eventos" />
+      <HeaderGame onClick={handleClickAdd} />
+      <HashtagGame />
+      <InputCheckbox
+        id="show"
+        value="show"
+        type="checkbox"
+        content="Mostrar eventos"
+      />
 
-      <AboutLayer className={enableAbout}>
-        <LayerHeader onClick={handleClickDisable} />
+      <LayerDark className={activeAbout}>
+        <HeaderInternal onClick={handleClickRemove} />
+
         <ProfileUser />
-      </AboutLayer>
+      </LayerDark>
     </main>
   );
 };
