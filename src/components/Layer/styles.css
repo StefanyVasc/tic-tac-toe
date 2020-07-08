@@ -9,7 +9,7 @@
   color: var(--color-lighter);
 }
 
-.header-container {
+.header-game {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,12 +17,12 @@
   padding-bottom: 20px;
 }
 
-.header-container > .logo {
+.header-game > .logo {
   margin-left: 35px;
   margin-right: 10px;
 }
 
-.header-container > .menu {
+.header-game > .menu {
   margin-right: 36px;
 }
 
