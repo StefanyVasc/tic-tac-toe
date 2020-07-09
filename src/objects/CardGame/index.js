@@ -1,8 +1,10 @@
 import React from "react";
 import "./styles.css";
 
-const CardGame = ({ children }) => (
-  <article className="card-game">{children}</article>
+const CardGame = ({ children, onClick }) => (
+  <article className="card-game" onClick={onClick}>
+    {children}
+  </article>
 );
 
 export default CardGame;

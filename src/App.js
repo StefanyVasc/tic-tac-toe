@@ -12,9 +12,7 @@ const App = () => {
   const [activeEvent, setActiveEvent] = useState("");
 
   const handleClickAdd = () => setActiveAbout("-active");
-  const handleClickAddEvent = () => {
-    setActiveEvent("-enable");
-  };
+  const handleClickAddEvent = () => setActiveEvent("-enable");
 
   const handleClickRemove = () => setActiveAbout("");
 

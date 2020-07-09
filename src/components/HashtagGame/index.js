@@ -7,33 +7,33 @@ const HashtagGame = () => (
   <CardGame>
     <ul className="hashtag-game">
       <li className="item">
-        <PlayerGame player="o" />
+        <PlayerGame player="" />
       </li>
       <li className="item">
-        <PlayerGame player="x" />
+        <PlayerGame player="" />
       </li>
       <li className="item">
-        <PlayerGame player="x" />
-      </li>
-
-      <li className="item">
-        <PlayerGame player="o" />
-      </li>
-      <li className="item">
-        <PlayerGame player="x" />
-      </li>
-      <li className="item">
-        <PlayerGame player="o" />
+        <PlayerGame player="" />
       </li>
 
       <li className="item">
-        <PlayerGame player="x" />
+        <PlayerGame player="" />
       </li>
       <li className="item">
-        <PlayerGame player="o" />
+        <PlayerGame player="" />
       </li>
       <li className="item">
-        <PlayerGame player="x" />
+        <PlayerGame player="" />
+      </li>
+
+      <li className="item">
+        <PlayerGame player="" />
+      </li>
+      <li className="item">
+        <PlayerGame player="" />
+      </li>
+      <li className="item">
+        <PlayerGame player="" />
       </li>
     </ul>
   </CardGame>
