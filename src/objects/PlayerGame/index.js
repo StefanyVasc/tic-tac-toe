@@ -3,8 +3,8 @@ import playerO from "../../img/Circle.png";
 import playerX from "../../img/X.png";
 import "./styles.css";
 
-const PlayerGame = ({ player }) => {
-  const [activePlayer, setActivePlayer] = useState(player);
+const PlayerGame = () => {
+  const [activePlayer, setActivePlayer] = useState();
 
   const handleClickPlayer = () => setActivePlayer("x");
 

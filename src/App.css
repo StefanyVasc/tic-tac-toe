@@ -17,3 +17,19 @@
   height: 90vw;
   margin-bottom: 40px;
 }
+
+.app > .input-checkbox {
+  margin-bottom: var(--spacing-big);
+}
+
+.app > .event-history {
+  display: none;
+}
+
+.app > .event-history.-active {
+  display: block;
+}
+
+/* .app > .input-game:checked ~ .event-history {
+  display: block;
+} */

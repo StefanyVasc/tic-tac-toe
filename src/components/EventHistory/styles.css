@@ -1,14 +1,8 @@
-.event-history {
-  margin: 0 auto;
+.event-history > .action {
+  margin-bottom: var(--spacing-small);
 }
-
-.event-history > .event-label {
-  margin: 0 auto var(--spacing-medium);
-  width: 127px;
-  padding: 5px;
+.event-history .event-label {
   box-sizing: border-box;
-}
-
-.event-history > .input-checkbox {
-  margin-bottom: var(--spacing-big);
+  display: inline-block;
+  width: 140px;
 }

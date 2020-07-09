@@ -5,22 +5,34 @@ import HashtagGame from "./components/HashtagGame";
 import HeaderGame from "./components/HeaderGame";
 import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
+import InputCheckbox from "./objects/InputCheckbox";
 import LayerDark from "./objects/LayerDark";
 
 const App = () => {
   const [activeAbout, setActiveAbout] = useState("");
-  const [activeEvent, setActiveEvent] = useState("");
+  const [activeEventHistory, setActiveHideEventHistory] = useState("");
 
   const handleClickAdd = () => setActiveAbout("-active");
-  const handleClickAddEvent = () => setActiveEvent("-enable");
-
   const handleClickRemove = () => setActiveAbout("");
+  const handleClickAddEventHistory = () => {
+    setActiveHideEventHistory((oldState) =>
+      oldState === "-active" ? "" : "-active"
+    );
+  };
 
   return (
-    <main className="app">
+    <main id="main" className="app">
       <HeaderGame onClick={handleClickAdd} />
       <HashtagGame />
-      <EventHistory className={activeEvent} onClick={handleClickAddEvent} />
+
+      <InputCheckbox
+        id="show"
+        value="show"
+        type="checkbox"
+        content="Mostrar eventos"
+        onClick={handleClickAddEventHistory}
+      />
+      <EventHistory className={activeEventHistory} />
 
       <LayerDark className={activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />

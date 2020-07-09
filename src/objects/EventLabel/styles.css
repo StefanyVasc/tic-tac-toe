@@ -1,16 +1,10 @@
 .event-label {
-  display: none;
+  background-color: var(--color-zero);
+  padding: var(--spacing-very-small) var(--spacing-medium);
+  border-radius: 2em;
 }
 
-.event-label.-draw {
+.event-label.-end {
   text-transform: uppercase;
   background-color: var(--color-nineteen);
-}
-
-.event-label.-enable {
-  display: block;
-  font-size: var(--size-small);
-  color: var(--color-negative);
-  background-color: var(--color-zero);
-  border-radius: calc(var(--spacing-radius) * 3);
 }

@@ -5,13 +5,7 @@ import "./styles.css";
 
 const InputCheckbox = ({ id = "", value = "", content = "", onClick }) => (
   <div className="input-checkbox">
-    <InputGame
-      id={id}
-      value={value}
-      type="checkbox"
-      content={content}
-      onClick={onClick}
-    />
+    <InputGame id={id} value={value} type="checkbox" content={content} />
     <LabelGame htmlFor={id} content={content} onClick={onClick} />
   </div>
 );
