@@ -1,0 +1,14 @@
+.event-history {
+  margin: 0 auto;
+}
+
+.event-history > .event-label {
+  margin: 0 auto var(--spacing-medium);
+  width: 127px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.event-history > .input-checkbox {
+  margin-bottom: var(--spacing-big);
+}
