@@ -3,6 +3,7 @@ import playerO from "../../img/Circle.png";
 import playerX from "../../img/X.png";
 import "./styles.css";
 
+let fakePlayer = "x";
 const PlayerGame = ({ currentPlayer = false }) => {
   const [activePlayer, setActivePlayer] = useState(currentPlayer);
 
@@ -10,7 +11,15 @@ const PlayerGame = ({ currentPlayer = false }) => {
   players["x"] = playerX;
   players["o"] = playerO;
 
-  const handleClickPlayer = () => setActivePlayer("x");
+  const handleClickPlayer = () => {
+    if (fakePlayer === "x") {
+      setActivePlayer("x");
+      fakePlayer = "o";
+    } else {
+      setActivePlayer("o");
+      fakePlayer = "x";
+    }
+  };
 
   return (
     <button className="player-game" onClick={handleClickPlayer}>
