@@ -3,20 +3,22 @@ import playerO from "../../img/Circle.png";
 import playerX from "../../img/X.png";
 import "./styles.css";
 
-const PlayerGame = () => {
-  const [activePlayer, setActivePlayer] = useState();
+const PlayerGame = ({ currentPlayer = false }) => {
+  const [activePlayer, setActivePlayer] = useState(currentPlayer);
+
+  const players = [];
+  players["x"] = playerX;
+  players["o"] = playerO;
 
   const handleClickPlayer = () => setActivePlayer("x");
 
   return (
     <button className="player-game" onClick={handleClickPlayer}>
-      {activePlayer ? (
+      {activePlayer && (
         <img
-          src={activePlayer ? playerX : playerO}
+          src={players[activePlayer]}
           alt={`Jogador ${activePlayer.toUpperCase()}`}
         />
-      ) : (
-        ""
       )}
     </button>
   );

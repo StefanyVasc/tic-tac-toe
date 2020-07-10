@@ -2,8 +2,8 @@ import React from "react";
 import EventLabel from "../../objects/EventLabel";
 import "./styles.css";
 
-const EventHistory = ({ className }) => (
-  <ol className={`event-history ${className}`}>
+const EventHistory = () => (
+  <ol className="event-history">
     <li className="action">
       <EventLabel content="Adicionou O" />
     </li>

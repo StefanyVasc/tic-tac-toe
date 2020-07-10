@@ -18,7 +18,7 @@
   margin-bottom: 40px;
 }
 
-.app > .input-checkbox {
+.app > .label-game {
   margin-bottom: var(--spacing-big);
 }
 
@@ -26,10 +26,6 @@
   display: none;
 }
 
-.app > .event-history.-active {
+.app > .input-game:checked ~ .event-history {
   display: block;
 }
-
-/* .app > .input-game:checked ~ .event-history {
-  display: block;
-} */

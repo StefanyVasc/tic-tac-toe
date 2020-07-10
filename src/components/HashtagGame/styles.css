@@ -10,11 +10,6 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.hashtag-game .player-game {
-  width: 100%;
-  height: 100%;
-}
-
 .hashtag-game > .item {
   background-color: var(--color-zero);
   display: flex;
@@ -91,4 +86,8 @@
 .hashtag-game > .item:nth-child(8)::after {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+
+.hashtag-game .player-game {
+  flex-basis: 100%;
 }

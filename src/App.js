@@ -10,15 +10,9 @@ import LayerDark from "./objects/LayerDark";
 
 const App = () => {
   const [activeAbout, setActiveAbout] = useState("");
-  const [activeEventHistory, setActiveHideEventHistory] = useState("");
 
   const handleClickAdd = () => setActiveAbout("-active");
   const handleClickRemove = () => setActiveAbout("");
-  const handleClickAddEventHistory = () => {
-    setActiveHideEventHistory((oldState) =>
-      oldState === "-active" ? "" : "-active"
-    );
-  };
 
   return (
     <main id="main" className="app">
@@ -30,9 +24,8 @@ const App = () => {
         value="show"
         type="checkbox"
         content="Mostrar eventos"
-        onClick={handleClickAddEventHistory}
       />
-      <EventHistory className={activeEventHistory} />
+      <EventHistory />
 
       <LayerDark className={activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />
