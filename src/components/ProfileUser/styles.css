@@ -1,5 +1,6 @@
 .profile-user {
   color: var(--color-zero);
+  margin: 0 auto;
 }
 
 .profile-user > .avatar {
@@ -28,4 +29,32 @@
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
+}
+
+@media (min-width: 1315px) {
+  .profile-user {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (max-width: 1315px) {
+  .profile-user {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+@media (max-width: 880px) {
+  .profile-user {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+
+@media (max-width: 770px) {
+  .profile-user {
+    width: 70vw;
+    height: 70vw;
+  }
 }

@@ -6,7 +6,7 @@
 }
 
 .app > .header-game {
-  width: 90vw;
+  width: 85vw;
   margin: 0 auto 85px;
 }
 
@@ -28,4 +28,32 @@
 
 .app > .input-game:checked ~ .event-history {
   display: block;
+}
+
+@media (min-width: 1315px) {
+  .app > .card-game {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (max-width: 1315px) {
+  .app > .card-game {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 880px) {
+  .app > .card-game {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+@media (max-width: 770px) {
+  .app > .card-game {
+    width: 60vw;
+    height: 60vw;
+  }
 }

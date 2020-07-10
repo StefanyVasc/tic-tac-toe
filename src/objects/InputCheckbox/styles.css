@@ -22,3 +22,13 @@
 .input-game:checked + .label-game::before {
   background-color: var(--color-first);
 }
+
+@media (min-width: 1315px),
+  (max-width: 1315px),
+  (max-width: 880px),
+  (max-width: 770px) {
+  .label-game {
+    display: flex;
+    justify-content: center;
+  }
+}
