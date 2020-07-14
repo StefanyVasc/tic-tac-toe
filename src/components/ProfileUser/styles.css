@@ -1,60 +1,51 @@
 .profile-user {
-  color: var(--color-zero);
-  margin: 0 auto;
+    color: var(--color-zero);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-user > .avatar {
-  margin-bottom: var(--spacing-medium);
+    margin-bottom: var(--spacing-medium);
 }
 
 .profile-user .avatar-profile {
-  width: 130px;
-  height: 130px;
+    width: 130px;
+    height: 130px;
 }
 
 .profile-user > .title {
-  font-size: var(--size-big);
-  font-weight: bold;
-  margin-bottom: var(--spacing-small);
+    font-size: var(--size-big);
+    font-weight: bold;
+    margin-bottom: var(--spacing-small);
 }
 
 .profile-user > .description {
-  width: 80%;
-  margin: 0 auto var(--spacing-very-big);
-  line-height: 1.6;
+    width: 80%;
+    margin: 0 auto var(--spacing-very-big);
+    line-height: 1.6;
 }
 
 .profile-user > .socials {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 270px;
+    width: 70%;
+    margin: 0 auto;
 }
 
-@media (min-width: 1315px) {
-  .profile-user {
-    width: 30vw;
-    height: 30vw;
-  }
-}
+@media (min-width: 740px) {
+    .profile-user .avatar-profile {
+        width: 150px;
+        height: 150px;
+    }
 
-@media (max-width: 1315px) {
-  .profile-user {
-    width: 50vw;
-    height: 50vw;
-  }
-}
+    .profile-user > .title {
+        font-size: var(--size-very-big);
+    }
 
-@media (max-width: 880px) {
-  .profile-user {
-    width: 60vw;
-    height: 60vw;
-  }
-}
-
-@media (max-width: 770px) {
-  .profile-user {
-    width: 70vw;
-    height: 70vw;
-  }
+    .profile-user > .description {
+        font-size: var(--size-medium);
+        margin-bottom: var(--spacing-big);
+    }
 }

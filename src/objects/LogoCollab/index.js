@@ -1,13 +1,12 @@
-import React from "react";
-import logoDark from "../../img/logo-dark.png";
-import logoLight from "../../img/logo-light.png";
+import React from 'react';
+import CollabCode from '../../img/logo.png';
+import CollabCodeLight from '../../img/logo-light.png';
 
 const LogoCollab = ({ light = false }) => (
-  <img
-    src={light ? logoLight : logoDark}
-    alt="logo da CollabCode"
-    className="logo-collab"
-  />
+    <img className="logo-collab"
+        src={light ? CollabCodeLight : CollabCode}
+        alt="Logo da CollabCode"
+    />
 );
 
 export default LogoCollab;

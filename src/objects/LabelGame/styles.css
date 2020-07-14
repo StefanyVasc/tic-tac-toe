@@ -1,10 +1,10 @@
 .label-game {
-  font-size: var(--size-small);
-  font-weight: bold;
-  color: var(--color-fourth);
+    font-size: var(--size-small);
+    font-weight: bold;
+    color: var(--color-fourth);
 }
 
 .label-game::selection {
-  background-color: var(--color-first);
-  color: var(--color-zero);
+    background-color: var(--color-first);
+    color: var(--color-zero);
 }

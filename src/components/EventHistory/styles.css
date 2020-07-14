@@ -1,8 +1,0 @@
-.event-history > .action {
-  margin-bottom: var(--spacing-small);
-}
-.event-history .event-label {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 140px;
-}

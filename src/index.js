@@ -4,8 +4,8 @@ import App from "./App";
 import "./styles/elements/base.css";
 import "./styles/generic/reset.css";
 import "./styles/settings/colors.css";
-import "./styles/settings/sizes.css";
-import "./styles/settings/spacings.css";
+import "./styles/settings/size.css";
+import "./styles/settings/spacing.css";
 
 ReactDOM.render(
   <React.StrictMode>
