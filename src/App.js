@@ -22,7 +22,6 @@ const App = () => {
   };
 
   const hideShowHistory = () => {
-    console.log("ENTRO!");
     setActive((old) => !!!old);
   };
 
