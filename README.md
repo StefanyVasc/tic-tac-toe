@@ -24,6 +24,8 @@
 ## :clipboard: Description
 A simple Tic Tac Toe made with ReactJS 😃. Have fun!
 
+This project was created to study React and its particularities. 
+
 ## :rocket: Getting Started
 
 1. Download the repository
